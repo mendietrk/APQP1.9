@@ -45,6 +45,8 @@
     <thead>
       <tr>
         <th>Parte</th>
+        <th>Nombre</th>
+        <th>Proyecto</th>
         <th>Especificación</th>
         <th>Peso con tolerancia</th>
         <th>Espesor peak 1</th>
@@ -60,6 +62,8 @@
       <% registros.forEach(r => { %>
         <tr>
           <td><%= r.pa6 || '-' %></td>
+          <td><%= r.pa4 || '-' %></td>
+          <td><%= r.pa8 || '-' %></td>
           <td><%= r.ch4 || '-' %></td>
           <td><%= r.chr_peso || '-' %></td>
           <td><%= r.chr_peak_1 || '-' %></td>
